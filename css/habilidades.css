@@ -1,0 +1,80 @@
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+}
+
+.curriculo {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem 5rem;
+  align-items: center;
+  object-fit: cover;
+  justify-content: space-between;
+}
+
+.curriculo img {
+  max-width: 100%;
+}
+
+.curriculo h2 {
+  font-size: 3rem;
+}
+
+.dhlista {
+  margin: 0 auto;
+  padding: 40px;
+  gap: 10px;
+}
+.hlista {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.hlista-habilidades {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.hlista-habilidades p {
+  grid-column: 2;
+}
+
+.hlista-habilidades img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+/* 
+.hlista-habilidades p {
+  grid-column: 2 ;
+}
+.hlista-habilidades img {
+  width: 100%;
+  object-fit: cover;
+} */
+
+/* .hlista-habilidades {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  object-fit: cover;
+} */
+
+.hlista-habilidades img {
+  max-width: 10%;
+}

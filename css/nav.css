@@ -1,0 +1,33 @@
+.navegacao {
+  background: #332f5b;
+  margin: auto;
+}
+
+.nav-header {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+body header nav a {
+  text-decoration: none;
+  color: #fffec8;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.header-nav-list {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: initial;
+
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}

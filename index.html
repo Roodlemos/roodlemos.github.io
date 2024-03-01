@@ -1,39 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ultrapassando limites para transformas sonhos!"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Rodolfo Portfólio</title>
   </head>
 
   <body>
-    <header>
-      <nav class="menu">
-        <a class="logo-menu" href="#">Dorolfolio</a>
-        <ul class="menu-lista">
+    <header class="navegacao">
+      <nav class="nav-header">
+        <span class="logo" id="logo"><a href="#">DOROLFOLIO</a></span>
+        <span class="darkmode"
+          ><a href="#"><img src="./img/sun.svg" alt="DarkMode" /></a
+        ></span>
+        <ul class="header-nav-list">
           <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
           <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contatos</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
-        <span class="menu-modos"></span>
       </nav>
     </header>
 
-    <!-- <main class="principal">
-      <article class="p-conteudo">
-        <p>Rodolfo Lemos</p>
-        <h1>UI/UX Designer & Developer</h1>
-        <p>
-          A combinação da minha paixão por design, código e interação me
-          posiciona em um lugar único no mundo do web design.
-        </p>
+    <main>
+      <div class="mprincipal">
+        <header class="mheader">
+          <span class="mdetalhe">Olá, eu sou o</span>
+          <h1 class="mtitulo">Rodolfo Lemos</h1>
+          <h2 class="mstitulo">designer + developer</h2>
+          <p>
+            Ultrapassando limites para<br />
+            transformar sonhos!
+          </p>
+        </header>
+        <section class="m-tamanho">
+          <div class="m-imagens">
+            <div class="m-img">
+              <img src="./img/img_p/img1.png" alt="img1" />
+            </div>
+            <div class="m-img">
+              <img src="./img/img_p/img3.png" alt="img3" />
+            </div>
+            <div class="m-img">
+              <img src="./img/img_p/img4.png" alt="img4" />
+            </div>
+            <div class="m-img">
+              <img src="./img/img_p/img6.png" alt="img6" />
+            </div>
+            <div class="m-img">
+              <img src="./img/img_p/img5.png" alt="img5" />
+            </div>
+            <div class="m-img">
+              <img src="./img/img_p/img2.png" alt="img2" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
 
-        <img src="#" alt="Foto de Perfil" class="f-perfil" />
-      </article>
-    </main> -->
-
-    <div class="projetos"></div>
-    <footer class="rodape"></footer>
+    <section class="curriculo">
+      <img src="./img/profile.png" alt="Perfil " class="f-perfil" />
+      <div class="mhabilidades">
+        <div class="habilidades">
+          <h2>Habilidades</h2>
+        </div>
+        <div class="dhlista">
+          <ul class="hlista">
+            <li class="hlista-habilidades">
+              <img src="./img/habilidades/html-124-svgrepo-com.svg" alt="" />
+              <p>HTML</p>
+            </li>
+            <li class="hlista-habilidades">
+              <img src="./img/habilidades/css3-02-svgrepo-com.svg" alt="" />
+              <p>CSS</p>
+            </li>
+            <li class="hlista-habilidades">
+              <img
+                src="./img/habilidades/javascript-155-svgrepo-com.svg"
+                alt=""
+              />
+              <p>JavaScript</p>
+            </li>
+            <li class="hlista-habilidades">
+              <img src="./img/habilidades/react-svgrepo-com.svg" alt="" />
+              <p>React</p>
+            </li>
+            <li class="hlista-habilidades">
+              <img src="./img/habilidades/figma-svgrepo-com.svg" alt="" />
+              <p>Figma</p>
+            </li>
+            <li class="hlista-habilidades">
+              <img src="./img/habilidades/illustrator-svgrepo-com.svg" alt="" />
+              <p>Illustrator</p>
+            </li>
+            <li class="hlista-habilidades">
+              <img src="./img/habilidades/photoshop-svgrepo-com.svg" alt="" />
+              <p>Photoshop</p>
+            </li>
+            <li class="hlista-habilidades">
+              <img src="./img/habilidades/premiere-svgrepo-com.svg" alt="" />
+              <p>Premiere</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="projetos"></section>
+    <footer class="contato"></footer>
   </body>
 </html>
