@@ -8,6 +8,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
+
 img {
 }
 
@@ -16,65 +21,55 @@ img {
   margin: 0 auto;
   margin-top: 6rem;
   display: flex;
+  align-items: center;
   flex-direction: row;
   gap: 1rem 5rem;
-  align-items: center;
-  object-fit: cover;
-  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
 }
 
-.curriculo img {
+.f-perfil {
   max-width: 100%;
+  object-fit: cover;
 }
 
-.curriculo h2 {
-  font-size: 3rem;
-}
-
-.dhlista {
-  margin: 0 auto;
-  padding: 40px;
-  gap: 10px;
-}
-.hlista {
-  display: grid;
-  grid-template-columns: auto auto;
+.habilidades {
+  font-size: 2rem;
+  margin-bottom: 6rem;
 }
 
 .hlista-habilidades {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-.hlista-habilidades p {
-  grid-column: 2;
-}
-
-.hlista-habilidades img {
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-  object-fit: cover;
-}
-
-/* 
-.hlista-habilidades p {
-  grid-column: 2 ;
-}
-.hlista-habilidades img {
-  width: 100%;
-  object-fit: cover;
-} */
-
-/* .hlista-habilidades {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0px;
-  padding: 0px;
-  object-fit: cover;
-} */
+  align-self: flex-start;
+  align-content: center;
+}
 
 .hlista-habilidades img {
-  max-width: 10%;
+  max-width: 20%;
+}
+
+.hlista {
+  display: grid;
+  gap: 5rem 5rem;
+  grid-template-columns: auto 1fr;
+}
+
+.hlista-habilidades p {
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.cbutao {
+  font-family: Kanit, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  background-color: #28244e;
+  text-align: center;
+  margin-top: 4rem;
+  border-radius: 4px;
+  padding: 0.1rem;
+}
+
+hr {
+  border: 2px solid #ebf2c7;
 }
