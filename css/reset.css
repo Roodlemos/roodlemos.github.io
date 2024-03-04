@@ -28,7 +28,6 @@ li {
 
 .container {
   width: 100%;
-  margin: 0 auto;
 }
 
 .container {
@@ -40,7 +39,5 @@ li {
 section {
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   scroll-snap-align: start;
 }

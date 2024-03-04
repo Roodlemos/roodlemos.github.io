@@ -1,15 +1,15 @@
 .mprincipal {
   max-width: 1440px;
-  margin: auto;
+  height: 100vh;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  gap: 5rem;
   justify-content: space-between;
   align-items: center;
+  /* gap: 1rem 10rem; */
 }
 
 .mheader {
-  margin: 5rem;
 }
 
 .mdetalhe {
@@ -52,11 +52,11 @@
 .m-imagens {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
-  margin: 20px auto;
-  padding: 0px;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 5rem;
   align-content: center;
-  overflow: hidden;
+  justify-content: center;
 }
 .m-imagens img {
   display: block;

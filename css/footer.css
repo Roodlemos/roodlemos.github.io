@@ -1,11 +1,17 @@
-.contato {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
+section {
+  max-height: 100vh;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: end;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato {
   color: #ebf2c7;
   margin-top: 3rem;
 }
@@ -15,9 +21,10 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 0 auto;
+  justify-content: center;
+  margin: auto;
   align-items: center;
+  gap: 20rem;
 }
 
 .clista li {
@@ -36,20 +43,27 @@
   gap: 6rem;
   margin-top: 80px;
   margin-bottom: 60px;
+
+  margin: 10rem auto;
 }
 
 .flinks a img {
   max-width: 70%;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-content: flex-end;
+}
+
 .direitos {
-  width: 100%;
   color: #332f5b;
   background: #ebf2c7;
   text-align: center;
-  min-width: none;
 }
 
-.contato {
+.diretos1 {
   font-size: 1rem;
 }
