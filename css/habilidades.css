@@ -6,6 +6,8 @@ li {
 
 a {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -33,9 +35,13 @@ img {
   object-fit: cover;
 }
 
+.curriculo img {
+  max-width: 40%;
+}
+
 .habilidades {
   font-size: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .hlista-habilidades {
@@ -50,7 +56,7 @@ img {
 
 .hlista {
   display: grid;
-  gap: 5rem 5rem;
+  gap: 4rem 8rem;
   grid-template-columns: auto 1fr;
 }
 
@@ -60,22 +66,21 @@ img {
 }
 
 .cbutao {
-  font-family: Kanit, sans-serif;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 300;
   background-color: #28244e;
   color: #ebf2c7;
   text-align: center;
-  margin-top: 4rem;
   border-radius: 4px;
-  padding: 0.1rem;
+  padding: 1rem 1rem;
+  margin-top: 4.5rem;
 }
 
 .cbutao a {
   color: #ebf2c7;
 }
 
-.cbutao::before {
+/* .cbutao::before {
   content: "";
   height: 48px;
   width: 48px;
@@ -83,7 +88,7 @@ img {
   position: absolute;
   margin-left: -8rem;
   margin-top: 1.2rem;
-}
+} */
 
 hr {
   border: 2px solid #ebf2c7;

@@ -1,6 +1,9 @@
 .navegacao {
   background: #332f5b;
   margin: auto;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 }
 
 .nav-header {

@@ -1,11 +1,11 @@
-body {
-  margin: 0;
-}
-
 .contato {
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #ebf2c7;
   margin-top: 3rem;
 }
@@ -26,7 +26,7 @@ body {
   border: 2px solid #ebf2c7;
   margin: 2rem;
   border-radius: 3.75rem;
-  padding: 1.5rem 5.5rem;
+  padding: 1rem 5.5rem;
 }
 
 .flinks {
@@ -43,10 +43,11 @@ body {
 }
 
 .direitos {
+  width: 100%;
   color: #332f5b;
   background: #ebf2c7;
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  min-width: none;
 }
 
 .contato {
