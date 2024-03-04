@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.contato {
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-items: center;
+  color: #ebf2c7;
+  margin-top: 3rem;
+}
+
+.tfooter {
+  font-size: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.clista li {
+  font-size: 1.8rem;
+  font-weight: 300;
+  border: 2px solid #ebf2c7;
+  margin: 2rem;
+  border-radius: 3.75rem;
+  padding: 1.5rem 5.5rem;
+}
+
+.flinks {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.flinks a img {
+  max-width: 70%;
+}
+
+.direitos {
+  color: #332f5b;
+  background: #ebf2c7;
+  display: flex;
+  justify-content: center;
+}
+
+.contato {
+  font-size: 1rem;
+}
